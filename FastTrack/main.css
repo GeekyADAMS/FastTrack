@@ -1,0 +1,185 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #af97f0;
+}
+.cover{
+	width: 100vw;
+    margin: 0 auto;
+    max-width: 1000px;
+	background-image: url(images/anthony-tuil-512016-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.rear{
+	padding: 10px;
+}
+.member{
+	font-size: 24px;
+	color: rgb(7, 247, 255);
+	font-weight: bolder;
+}
+.form-style{
+	max-width: 90vh;
+	background: #215364;
+	height: 100vh;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style fieldset{
+	border: none;
+}
+.form-style legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style label {
+	display: block;
+	margin-bottom: 8px;
+}
+.bottom input[type="tel"],
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="datetime"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="search"],
+.form-style input[type="time"],
+.form-style input[type="url"],
+.form-style textarea{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0;
+	outline: 0;
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 20px;
+}
+.bottom input[type="tel"] {
+	width: 48%;
+	padding: 7px;
+}
+.bottom input[type="text"]{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+.form-style select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0;
+	outline: 0;
+	padding: 4px;
+	width: 48%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 5px;
+}
+.left{
+	display: flex;
+	float: left;
+}
+.right{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+.top, .bottom{
+	margin-bottom: 10px;
+	color: #e7ab05;
+}
+.b-r{
+	float: right;
+}
+.bottom input[type="text"] {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	float: right;
+	width: 48%;
+	padding: 7px;
+}
+
+.form-style input[type="text"]:focus,
+.form-style input[type="tel"]:focus,
+.form-style input[type="date"]:focus,
+.form-style input[type="datetime"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="search"]:focus,
+.form-style input[type="time"]:focus,
+.form-style input[type="url"]:focus,
+.form-style textarea:focus,
+.form-style select:focus{
+	background: #d2d9dd;
+}
+.form-style select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style .number {
+	background: #463f4e;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+.form-style input[type="submit"],
+.form-style input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 10px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 10px;
+	width: 50%;
+	border: 1px solid #2f5e7e;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style input[type="submit"]:hover,
+.form-style input[type="button"]:hover
+{
+	background: #a59fa7;
+}
+.textarea{
+    height: 15vh;
+}
+
+#fRight{
+	height: 100vh;
+	border-radius: 0px 20px 20px 0px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+</head>
+<body>
+    <div class="cover">
+        <div class="form-style">
+            <form>
+                <fieldset>
+                    <legend class="rear">
+                        <span class="member">Request for Service</span>
+                    </legend>
+                    
+                            <input type="text" name="field1" placeholder="Full Name" required>
+                            <input type="text" name="field1" placeholder="Email" required>  
+                            <input type="text" name="field1" placeholder="Full Address">
+                            <input type="text" name="field1" placeholder="Additional address">
+                            
+                            <div>
+                                <div class="top">
+                                        <span class="left">Gender</span>
+                                        <span class="right">Select Service</span>
+                                </div>
+                                <div class="bottom">
+                                    <select name="" id="" class="b-l" required>
+                                        <option value="no option"></option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                    <select name="" id="" class="b-r" required>
+                                            <option value="">Catering</option>
+                                            <option value="">Hairstyling</option>
+                                            <option value="">Interior Decoration</option>
+                                            <option value="">Fashion Design</option>
+                                            <option value="">Bead Making</option>
+                                            <option value="">Content Creation</option>
+                                            <option value="">Web Development</option>
+                                            <option value="">Driving</option>
+                                    </select>
+                                </div>  
+                                
+                                <div class="top">
+                                        <span class="left">Phone Number</span>
+                                        <span class="right">Input Budget</span>
+                                </div>
+                                <div class="bottom">
+                                    <input type="tel" required>
+                                    <input type="text" class="b2-r" required>
+                                </div>
+                            </div>
+                            <textarea name="field3" class="textarea" placeholder="Do you have any additional message for us? We are definitely happy to hear you out." required></textarea>
+                    </fieldset>
+                    <input type="submit" value="MAKE ORDER" />
+            </form>
+        </div>
+        <div id="rightImage">
+            <img id="fRight" src="images/pexels-photo-2650201.jpeg">
+        </div>
+    </div>
+</body>
+</html>
